@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HealthTrack – Patient Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside>
+    <h2>HealthTrack</h2>
+    <nav>
+      <a href="#">Overview</a>
+      <a href="#">Appointments</a>
+      <a href="#">Prescriptions</a>
+      <a href="#">Reports</a>
+      <a href="#">Settings</a>
+    </nav>
+  </aside>
+
+  <!-- Header -->
+  <header>
+    <h1>Patient Dashboard</h1>
+    <div class="profile">
+      <i class="fa-regular fa-bell"></i>
+      <img src="https://via.placeholder.com/40" alt="Patient"/>
+      <span>John Doe</span>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Health Metrics -->
+    <div class="cards">
+      <div class="card">
+        <i class="fa-solid fa-heart-pulse"></i>
+        <h4>Heart Rate</h4>
+        <p>76 bpm</p>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-stethoscope"></i>
+        <h4>Blood Pressure</h4>
+        <p>120/80 mmHg</p>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-lungs"></i>
+        <h4>Oxygen Level</h4>
+        <p>98%</p>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-weight-scale"></i>
+        <h4>BMI</h4>
+        <p>22.4</p>
+      </div>
+    </div>
+
+    <!-- Appointments -->
+    <section>
+      <h3>Appointments</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Doctor</th>
+            <th>Type</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>25 Sep 2025</td>
+            <td>Dr. Smith</td>
+            <td>General Checkup</td>
+            <td>Upcoming</td>
+          </tr>
+          <tr>
+            <td>10 Sep 2025</td>
+            <td>Dr. Patel</td>
+            <td>Cardiology</td>
+            <td>Completed</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Prescriptions -->
+    <section>
+      <h3>Prescriptions</h3>
+      <ul>
+        <li><strong>Atorvastatin</strong> – 10mg, Daily | Dr. Smith | 30 Days</li>
+        <li><strong>Metformin</strong> – 500mg, Twice Daily | Dr. Patel | 60 Days</li>
+      </ul>
+    </section>
+
+    <!-- Patient Profile -->
+    <section>
+      <h3>Patient Profile</h3>
+      <p><strong>Name:</strong> John Doe</p>
+      <p><strong>Age:</strong> 32</p>
+      <p><strong>Gender:</strong> Male</p>
+      <p><strong>Email:</strong> john.doe@example.com</p>
+      <p><strong>Phone:</strong> +91-9876543210</p>
+      <p><strong>Doctor Assigned:</strong> Dr. Smith</p>
+    </section>
+  </main>
+
+</body>
+</html>
